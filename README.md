@@ -1,6 +1,6 @@
-###POO - Desafio Modelagem e Diagramação de um Componente iPhone
+###POO - Abstraindo um Bootcamp Usando Orientação a Objetos em Java
 
-#### Funcionalidades
+#### Classes(Atributos + Métodos)
 1. **Reprodutor Musical**
    - Métodos: `tocar()`, `pausar()`, `selecionarMusica(String musica)`
 2. **Aparelho Telefônico**
@@ -12,6 +12,7 @@
 ```mermaid
 classDiagram
     class ReprodutorMusical {
+         String nomeMusica;
         +tocar()
         +pausar()
         +selecionarMusica(String musica)
