@@ -2,10 +2,11 @@
 
 #### Classes(Atributos + Métodos)
 1. **Reprodutor Musical**
+   - Atributos: `nomeMusica`
    - Métodos: `tocar()`, `pausar()`, `selecionarMusica(String musica)`
-2. **Aparelho Telefônico**
+3. **Aparelho Telefônico**
    - Métodos: `ligar(String numero)`, `atender()`, `iniciarCorreioVoz()`
-3. **Navegador na Internet**
+4. **Navegador na Internet**
    - Métodos: `exibirPagina(String url)`, `adicionarNovaAba()`, `atualizarPagina()`
 
 ### Diagrama UML (Mermaid)
